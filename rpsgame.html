@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock! Paper! Scissors!</title>
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/rpsstyle.css"/>
+
+</head>
+<body>
+	<h1 align="center">Would you like to play a game?</h1>
+	<h3 align="center">Make your play for Rock, Paper, Scissors. Hit "Start Over" to clear the board</h3>
+	<div align="center">	
+		<button class="rock"><img src="assets/images/rock.jpeg" height=250px></button>
+		<button class="paper" align="center"><img src="assets/images/paper.jpeg" height=250px></button>
+		<button class="scissors" align="right"><img src="assets/images/scissor.gif" height=250px></button>
+		<p></p>
+	</div>
+	<div>
+		<button class="restart">Start Over</button>
+	</div>
+	<table id="scoreboard">
+		<thead>
+		<tr>
+			<th>Player Threw</th>
+			<th>Computer Threw</th>
+			<th>Winner</th>
+			<th>Total Player Score</th>
+			<th>Total Computer Score</th>
+		</tr>
+		</thead>
+		<tbody id="tablebody">	
+
+		</tbody>
+	</table>		
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="assets/javascript/rpsjava.js"></script>
+</body>
+</html>	
